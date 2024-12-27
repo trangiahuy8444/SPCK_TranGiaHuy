@@ -1,0 +1,8 @@
+Header
+Navigation
+Breadcrumb chỉ cho ta biết rằng đang ở đâu trong web "Home > About > Content"
+sidebar
+slider
+banner
+content
+footer

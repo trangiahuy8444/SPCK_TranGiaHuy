@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./asstets/css/style.css">
+    <link rel="stylesheet" href="./asstets/css/responsive.css">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Phan tich -->
+    <!-- header -->
+    <!-- slider -->
+    <!-- content b
+        About
+        Tour
+        Contact 
+        Image
+        Footer
+    -->
+    <!-- Footer -->
+    <div id="main">
+        <div id="header">
+            <!-- Begin: Nav -->
+            <ul id="nav">
+                <li><a href="#">Home</a></li>
+                <li><a href="#band">Band</a></li>
+                <li><a href="#tour">Tour</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li>
+                    <a href="#">More <i class="fa-solid fa-caret-down"></i></a>
+                    <ul class="subnav">
+                        <li><a href="#">Merchandise</a></li>
+                        <li><a href="#">Extras</a></li>
+                        <li><a href="#">Media</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <!-- End: Nav -->
+            <!-- Begin: Search -->
+            <div class="search-btn">
+                <i class="search-icon fa-solid fa-magnifying-glass"></i>
+            </div>
+            <div class="mobile-menu-btn" id="mobile-menu-btn">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <!-- End: Search -->
+        </div>
+        <div id="slider">
+            <div class="slides">
+                <img src="/asstets/img/slider1.jpg" alt="">
+                <div class="text-content">
+                    <h2 class="text-header">Los Angeles</h2>
+                    <div class="text-description">We had the best time playing at Venice Beach!</div>
+                </div>
+            </div>
+            <div class="slides">
+                <img src="/asstets/img/slider2.jpg" alt="">
+                <div class="text-content">
+                    <h2 class="text-header">New York</h2>
+                    <div class="text-description">The atmosphere in New York is lorem ipsum.</div>
+                </div>
+            </div>
+            <div class="slides">
+                <img src="/asstets/img/slider3.jpg" alt="">
+                <div class="text-content">
+                    <h2 class="text-header">Chicago</h2>
+                    <div class="text-description">Thank you, Chicago - A night we won't forget.</div>
+                </div>
+            </div>
+        </div>
+        <div id="content">
+            <!-- Begin: About  -->
+            <div class="about-section" id="band">
+                <div class="content-section">
+                    <h2 class="section-heading">THE BAND</h2>
+                    <p class="section-sub-heading">We love music</p>
+                    <p class="about-text">We have created a fictional band website. Lorem ipsum dolor sit amet,
+                        consectetur
+                        adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                        minim
+                        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+                        aute
+                        irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
+                        id
+                        est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                        magna
+                        aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                        commodo consequat.</p>
+                    <div class="member-list">
+                        <div class="member-item">
+                            <p class="member-name">Name</p>
+                            <img src="/asstets/img/bandmember.jpg" alt="" class="member-img">
+                        </div>
+                        <div class="member-item">
+                            <p class="member-name">Name</p>
+                            <img src="/asstets/img/bandmember.jpg" alt="" class="member-img">
+                        </div>
+                        <div class="member-item">
+                            <p class="member-name">Name</p>
+                            <img src="/asstets/img/bandmember.jpg" alt="" class="member-img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End: About-->
+
+            <!-- Begin: Tour  -->
+            <div class="tour-section">
+                <div class="content-section" id="tour">
+                    <h2 class="section-heading text-white">TOUR DATES</h2>
+                    <p class="section-sub-heading text-white">Remember to book your tickets!</p>
+                    <!-- tickets -->
+                    <ul class="ticket-list">
+                        <li>September <span class="sold-out">Sold out</span></li>
+                        <li>October <span class="sold-out">Sold out</span></li>
+                        <li>November <span class="quantity">3</span></li>
+                    </ul>
+                    <!-- places -->
+                    <div class="places-list">
+                        <div class="place-item">
+                            <img src="/asstets/img/place/newyork.jpg" alt="" class="place-img">
+                            <div class="place-content">
+                                <h3 class="place-name">New York</h3>
+                                <p class="place-time">Fri 27 Nov 2016</p>
+                                <p class="place-description">Praesent tincidunt sed tellus ut rutrum sed vitae justo.
+                                </p>
+                                <button class="place-buy-btn js-buy-ticket">Buy Tickets</button>
+                            </div>
+                        </div>
+                        <div class="place-item">
+                            <img src="/asstets/img/place/paris.jpg" alt="" class="place-img">
+                            <div class="place-content">
+                                <h3 class="place-name">Paris</h3>
+                                <p class="place-time">Sat 28 Nov 2016</p>
+                                <p class="place-description">Praesent tincidunt sed tellus ut rutrum sed vitae justo.
+                                </p>
+                                <button class="place-buy-btn js-buy-ticket">Buy Tickets</button>
+                            </div>
+                        </div>
+                        <div class="place-item">
+                            <img src="/asstets/img/place/sanfran.jpg" alt="" class="place-img">
+                            <div class="place-content">
+                                <h3 class="place-name">San Francisco</h3>
+                                <p class="place-time">Sun 29 Nov 2016</p>
+                                <p class="place-description">Praesent tincidunt sed tellus ut rutrum sed vitae justo.
+                                </p>
+                                <button class="place-buy-btn js-buy-ticket">Buy Tickets</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End: Tour-->
+
+            <!-- Begin: Contact  -->
+            <div class="contact-section">
+                <div class="content-section" id="contact">
+                    <h2 class="section-heading">CONTACT</h2>
+                    <p class="section-sub-heading">Fan? Drop a note!</p>
+                    <div class="row contact-content">
+                        <div class="col col-half contact-info">
+                            <p><i class="fa fa-map-marker"></i> Chicago, US</p>
+                            <p><i class="fa fa-phone"></i> Phone: +00 151515</p>
+                            <p><i class="fa fa-envelope"></i> Email: mail@mail.com</p>
+                        </div>
+                        <div class="col col-half contact-form">
+                            <form action="">
+                                <div class="row">
+                                    <div class="col col-half">
+                                        <input type="text" name="" id="" placeholder="Name" class="form-control">
+                                    </div>
+                                    <div class="col col-half">
+                                        <input type="email" name="" id="" placeholder="Email" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col col-full">
+                                        <input type="text" name="" id="" placeholder="Message" class="form-control">
+                                    </div>
+                                </div>
+                                <input type="submit" name="" id="" value="SEND" class="place-buy-btn form-submit-btn">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Begin: Map -->
+            <div class="map-section">
+                <img src="/asstets/img/map.jpg" alt="">
+            </div>
+            <!-- End: Map -->
+            <!-- End: Contact-->
+            <div id="footer">
+                <ul class="footer-icons">
+                    <li><a href=""><i class="fa-brands fa-facebook"></i></a></li>
+                    <li><a href=""><i class="fa-brands fa-facebook"></i></a></li>
+                    <li><a href=""><i class="fa-brands fa-facebook"></i></a></li>
+                    <li><a href=""><i class="fa-brands fa-facebook"></i></a></li>
+                    <li><a href=""><i class="fa-brands fa-facebook"></i></a></li>
+                    <li><a href=""><i class="fa-brands fa-facebook"></i></a></li>
+                </ul>
+                <p class="section-sub-heading">Powered by <span><a
+                            href="https://www.w3schools.com/w3css/default.asp">w3.css</a></span></p>
+            </div>
+        </div>
+
+        <div class="modal js-modal">
+            <div class="modal-container">
+                <div class="modal-close js-modal-close">
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+                <header class="modal-header">
+                    <i class="fa-solid fa-suitcase"></i>
+                    <span>Tickets</span>
+                </header>
+                <div class="modal-body">
+                    <label for="quantity" class="modal-label">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <span>Tickets, $15 per person</span>
+                    </label>
+                    <input id="quantity" type="text" class="modal-input" placeholder="How many?">
+
+                    <label for="email" class="modal-label">
+                        <i class="fa-solid fa-user"></i>
+                        <span>Send to</span>
+                    </label>
+                    <input id="email" type="email" class="modal-input" placeholder="Enter email...">
+                    <button id="buy-tickets">
+                        Pay <i class="fa-solid fa-check"></i>
+                    </button>
+                </div>
+                <footer class="modal-footer">
+                    <p class="modal-help">
+                        Need <a href="#">help?</a>
+                    </p>
+                </footer>
+            </div>
+        </div>
+        <script src="https://www.w3schools.com/lib/w3.js"></script>
+        <script>
+            w3.slideshow(".slides", 1500);
+        </script>
+
+        <script>
+            const buyBtns = document.querySelectorAll(".js-buy-ticket")
+            const modal = document.querySelector(".js-modal")
+            const modalClose = document.querySelector(".js-modal-close")
+
+            const header = document.getElementById("header")
+            const mobileMenu = document.getElementById("mobile-menu-btn")
+            const currentHeightHeader = header.clientHeight
+            const menuItems = document.querySelectorAll("#nav li a[href*='#']")
+
+            for (const buyBtn of buyBtns) {
+                buyBtn.addEventListener("click", function () {
+                    // modal.style.display = "flex"
+                    modal.classList.add("modal-open")
+                })
+            }
+            modalClose.addEventListener("click", function () {
+                // modal.style.display = "none"
+                modal.classList.remove("modal-open")
+            })
+            modal.addEventListener("click", function () {
+                // modal.style.display = "none"
+                modal.classList.remove("modal-open")
+            })
+
+            mobileMenu.addEventListener("click", function () {
+                var isClose = header.clientHeight === currentHeightHeader
+                if (isClose) {
+                    header.style.height = 'auto'
+                }
+                else {
+                    header.style.height = null
+                }
+            })
+
+            for (const menuItem of menuItems) {
+                menuItem.addEventListener("click", function () {
+                    header.style.height = null
+                })
+            }
+        </script>
+
+</body>
+
+</html>
